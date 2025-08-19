@@ -34,14 +34,21 @@ pkg install cloudflared -y   # optional but recommended
 🚀 Usage
 
 # Run default (current folder on port 8000)
+```
+
 python SHADOW-DNS.py
 
+```
 # Serve specific folder on custom port
+```
+
 python SHADOW-DNS.py -p 9000 -d /sdcard/Download
 
+```
 # Only local server (no public tunnel)
+```
 python SHADOW-DNS.py --no-public
-
+```
 
 ---
 
